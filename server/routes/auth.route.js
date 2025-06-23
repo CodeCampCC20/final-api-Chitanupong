@@ -10,7 +10,7 @@ import {
 import { LoginSchema, registerSchema, validate } from '../util/validater.js';
 
 
-// ENDPOINT http://localhost:8000/auth/register
+
 router.post('/register/user', validate(registerSchema), register);
 router.post('/login/user', validate(LoginSchema),login);
 

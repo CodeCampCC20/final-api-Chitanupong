@@ -20,7 +20,7 @@ model Doctor {
   password       String
   specialization String      
   doctorNote     DoctorNote[]
-  role           Role         @default(USER)
+  role           Role         @default(DOCTOR)
 }
 
 model DoctorNote {
